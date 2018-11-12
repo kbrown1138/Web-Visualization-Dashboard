@@ -2,6 +2,10 @@ body {
     background-color: gainsboro;
 }
 
+.container {
+    background-color: white
+}
+
 .container-fluid {
     background-color: white
 }
@@ -116,18 +120,22 @@ img {
     .collapse.in {
         display:block !important;
     }
+    .container {
+        margin-right: 20px; 
+        margin-left: 20px; 
+    }
     .container-fluid {
         background-color: lightseagreen
     }
     .box { 
-         margin-right: 20px; 
-         margin-left: 20px; 
-      } 
+        margin-right: 20px; 
+        margin-left: 20px; 
+    } 
     .box-2{ 
-         margin-right: 20px;
-         margin-left: 20px;
-       } 
-      } 
+        margin-right: 20px;
+        margin-left: 20px;
+    } 
+} 
     
 
  
